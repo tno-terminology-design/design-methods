@@ -36,4 +36,4 @@ For many (but not all) texts, it is important that the people that create and ma
 
 ## Notes
 
-- The [Manual for Authoring](/docs/terminology-design/manuals/authoring) provides guidance for [authors](@) that want to become more experienced in writing high-quality texts.
+- The [Manual for Authoring](/manuals/authoring) provides guidance for [authors](@) that want to become more experienced in writing high-quality texts.

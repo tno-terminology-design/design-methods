@@ -1,11 +1,11 @@
 ---
-id: tev2-specifications-readme
+id: design-methods-readme
 sidebar_label: readme
-date: 20230731
+date: 20230811
 ---
 
-# TEv2 Specifications
+# Terminology Design Methods
 
-[This repo](https://github.com/tno-terminology-design/tev2-specifications) contains the specifications for the various tools in the [TEv2 toolbox](@).
+[This repo](https://github.com/tno-terminology-design/design-methods) contains the descriptions of a variety of methods that people can use to design a terminology that fits their needs as they work together to realize specific objectives.
 
-**Read these specifications at [github.io](https://tno-terminology-design.github.io/tev2-specifications)**. 
+**Read these specifications at [github.io](https://tno-terminology-design.github.io/design-methods)**. 

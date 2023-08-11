@@ -1,15 +1,15 @@
 const path = require('path');
 module.exports = {
-  title: 'TNO Terminology Design',
-  tagline: 'Toolbox Specifications and Design Methods',
+  title: 'Terminology Design Methods',
+  tagline: 'How to design and maintain purposeful terminologies',
   url: 'https://tno-terminology-design.github.io',
-  baseUrl: '/tev2-specifications/',
+  baseUrl: '/design-methods/',
   favicon: 'images/logos/logo-tno-terminology-design.ico',
   organizationName: 'tno-terminology-design',
-  projectName: 'tev2-specifications',
+  projectName: 'design-methods',
   onBrokenLinks: 'log',
   scripts: [
-    { src: '/tev2-specifications/js/fix-location.js',
+    { src: '/js/fix-location.js',
       async: false,
       defer: false,
     },
@@ -25,9 +25,8 @@ module.exports = {
       title: 'Home',
       logo: { src: 'images/logos/tev2-new-babylon-medium.png', },
       items: [
-        { to: 'docs/tev2/tev2-overview',          label: 'TEv2 Overview',      position: 'left'},
-        { to: 'docs/terminology-design/overview', label: 'Terminology Design', position: 'left'},
-        { href: 'https://github.com/tno-terminology-design/tev2-specifications', label: 'Github',     position: 'right',
+        { to: 'overview', label: 'Terminology Design', position: 'left'},
+        { href: 'https://github.com/tno-terminology-design/design-methods', label: 'Github',     position: 'right',
         },
       ],
     },
@@ -37,27 +36,9 @@ module.exports = {
         {
           title: 'Terminology Design',
           items: [
-            { label: 'Introduction',  to: 'docs/terminology-design/overview' },
-            { label: 'Methods',       to: 'docs/terminology-design/methods' },
-            { label: 'Github', href: 'https://github.com/tno-terminology-design/tev2-specifications/tree/master/docs/terms' },
-          ],
-        },
-        {
-          title: 'TEv2 User Manuals',
-          items: [
-            { label: 'Curators',      to: 'docs/tev2/manuals/curator' },
-            { label: 'Contributors',  to: 'docs/tev2/manuals/contributor' },
-            { label: 'Authors',       to: 'docs/tev2/manuals/author' },
-            // { label: 'Github', href: 'https://github.com/tno-terminology-design/tev2-specifications/tree/master/docs/terms' },
-          ],
-        },
-        {
-          title: 'TEv2 Specifications',
-          items: [
-            { label: 'Files',     to: 'docs/tev2/tev2-spec-files' },
-            { label: 'Syntaxes',  to: 'docs/tev2/tev2-syntax' },
-            { label: 'Toolbox',   to: 'docs/tev2/tev2-toolbox' },
-            { label: 'Github', href: 'https://github.com/tno-terminology-design/tev2-specifications/tree/master/docs/terms' },
+            { label: 'Introduction',  to: '/docs/overview' },
+            { label: 'Methods',       to: '/docs/methods' },
+            { label: 'Github', href: 'https://github.com/tno-terminology-design/tree/master/docs/terms' },
           ],
         },
         {
@@ -80,9 +61,6 @@ module.exports = {
                              src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
                     </a>.&nbsp&nbsp(Copyright © 2022-${new Date().getFullYear()} by <span property="cc:attributionName">TNO</span>).</p>`
     },
-    prism: {
-        additionalLanguages: ['handlebars', 'regex', 'bash'],
-    },
   },
   presets: [
     [
@@ -90,7 +68,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/tno-terminology-design/tev2-specifications/blob/master/',
+          editUrl: 'https://github.com/tno-terminology-design/blob/master/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           breadcrumbs: false,

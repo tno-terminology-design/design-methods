@@ -22,7 +22,7 @@ function CustomFeature() {
       )}>
       <div className={styles.featuredImages}>
         {/* <img src={flagUrl} alt="Horizon 2020" /> */}
-        <img src={logoUrl} alt="TEv2 logo" />
+        <img src={logoUrl} alt="logo" />
       </div>
       {/* <h3>{title}</h3> */}
       {/* <p>{description}</p> */}
@@ -47,17 +47,8 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/tev2/tev2-overview')}>
-              Terminology Engine v2
-            </Link>
-            &nbsp;&nbsp;&nbsp;
-            <Link
-              className={classnames(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/terminology-design/overview')}>
-              Terminology Design
+              to={useBaseUrl('overview')}>
+              Terminology Design Methods
             </Link>
           </div> */}
         </div>
