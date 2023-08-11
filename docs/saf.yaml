@@ -1,5 +1,5 @@
 #
-# This is a Scope Administration File that can be used in conjunction with [Terminology Engine v2](https://tno-terminology-design.github.io/docs/tev2/tev2-overview).
+# This is a Scope Administration File that can be used in conjunction with [Terminology Engine v2](https://tno-terminology-design.github.io/docs/tev2-overview).
 #
 # The first section defines meta-data concerning the scope itself, both for technical use and human use.
 # It shows where directories and files live that ar part of the scope, and also
@@ -7,13 +7,13 @@
 #
 scope:
   scopetag: termdsn # identifier that curators have determined for this terminology
-  scopedir: https://github.com/tno-terminology-design/tree/master/design-methods  # URL of the scope-directory
+  scopedir: https://github.com/tno-terminology-design/design-methods/tree/master/docs  # URL of the scope-directory
   curatedir: terms # directory where all curated files are located. Full URL is `scopedir`/`curatedir`
   glossarydir: glossaries # directory where all glossary files and GDFs are located. Full URL is `scopedir`/`glossarydir`
   defaultvsn: terms # vsntag that identifies the default terminology. MRG is located at `scopedir`/`glossarydir`/mrg.`scopetag`.`defaultvsn`.yaml
   license: LICENSE.md # file that contains the (default) licensing conditions. Full URL is `scopedir`/`license`
   statuses: [ proposed, approved, deprecated ] # list of status tags that are defined for terminological artifacts in this scope
-  issues: https://github.com/tno-terminology-design/issues # URL where issues can be raised and handled
+  issues: https://github.com/tno-terminology-design/design-methods/issues # URL where issues can be raised and handled
   website: https://tno-terminology-design.github.io/design-methods # base URL for creating links to rendered versions of Curated Texts. It should also serve as the home page of the Tterminology.
   curators: # contacting individual curators
   - name: RieksJ
@@ -27,9 +27,9 @@ scope:
 #
 scopes:  #
 - scopetag: tev2
-  scopedir: https://github.com/tno-terminology-design/tree/master/docs/tev2
+  scopedir: https://github.com/tno-terminology-design/tev2-specifications/tree/master/docs
 - scopetag: essiflab
-  scopedir: https://github.com/tno-terminology-design/tree/master/docs
+  scopedir: https://github.com/essif-lab/framework/tree/master/docs
 - scopetag: ctwg
   scopedir: https://github.com/trustoverip/ctwg
 #
