@@ -31,7 +31,7 @@ module.exports = {
       title: 'Home',
       logo: { src: 'images/logos/tev2-new-babylon-medium.png', },
       items: [
-        { to: 'overview', label: 'Terminology Design', position: 'left'},
+        { to: 'docs/overview', label: 'Terminology Design', position: 'left'},
         { href: 'https://github.com/tno-terminology-design/design-methods', label: 'Github',     position: 'right',
         },
       ],
