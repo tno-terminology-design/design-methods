@@ -1,4 +1,10 @@
 const path = require('path');
+const terminology_design = require('./footer-links/terminology-design.json');
+const manuals = require('./footer-links/manuals.json');
+const specifications = require('./footer-links/specifications.json');
+const repositories = require('./footer-links/repositories.json');
+const copyright = require('./footer-links/copyright.json');
+
 module.exports = {
   title: 'Terminology Design Methods',
   tagline: 'How to design and maintain purposeful terminologies',
@@ -33,33 +39,12 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Terminology Design',
-          items: [
-            { label: 'Introduction',  to: '/docs/overview' },
-            { label: 'Methods',       to: '/docs/methods' },
-            { label: 'Github', href: 'https://github.com/tno-terminology-design/tree/master/docs/terms' },
-          ],
-        },
-        {
-          title: 'Toolbox Repositories',
-          items: [
-            { label: 'MRGT',  href: 'https://github.com/trustoverip/ctwg-toolkit-mrg' },
-            { label: 'TRRT',  href: 'https://github.com/tno-terminology-design/trrt' },
-          ],
-        },
+        { title: terminology_design.title, items: terminology_design.items },
+        { title: manuals.title, items: manuals.items },
+        { title: specifications.title, items: specifications.items, },
+        { title: repositories.title, items: repositories.items },
       ],
-      copyright: `<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
-                    <span property="dct:title">The TNO Terminology Design texts in this website</span> are licensed under
-                    <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
-                    CC BY-SA 4.0
-                      <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-                             src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1">
-                      <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-                             src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1">
-                      <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-                             src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
-                    </a>.&nbsp&nbsp(Copyright © 2022-${new Date().getFullYear()} by <span property="cc:attributionName">TNO</span>).</p>`
+      copyright: copyright.text.replace("[20XX-20YY]",`2022-${new Date().getFullYear()}`)
     },
   },
   presets: [
@@ -79,15 +64,4 @@ module.exports = {
       },
     ],
   ]
-  // plugins: [
-    // [
-      // '@docusaurus-terminology/parser',
-      // { termsDir: './docs/terms',
-      //   glossaryFilepath: './docs/glossary.md',
-      //   noParseFiles: ['./docs/tev1/terminology-engine-v1.mdx'],
-      //   glossaryPatternSeparator: '^',
-      //   glossaryTermPatterns: ['term', 'concept']
-      // }
-    // ]
-  // ]
 };
