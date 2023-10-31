@@ -1,0 +1,7 @@
+terminology:
+  scopetag: 'termdsn'
+  scopedir: 'https://github.com/tno-terminology-design/design-methods/tree/master/docs'
+  curatedir: 'terms'
+  vsntag: 'terms'
+scopes: []
+entries: []
