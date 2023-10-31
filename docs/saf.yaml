@@ -10,11 +10,11 @@ scope:
   scopedir: https://github.com/tno-terminology-design/design-methods/tree/master/docs  # URL of the scope-directory
   curatedir: terms # directory where all curated files are located. Full URL is `scopedir`/`curatedir`
   glossarydir: glossaries # directory where all glossary files and GDFs are located. Full URL is `scopedir`/`glossarydir`
-  defaultvsn: terms # vsntag that identifies the default terminology. MRG is located at `scopedir`/`glossarydir`/mrg.`scopetag`.`defaultvsn`.yaml
+  defaultvsn: documentation # vsntag that identifies the default terminology. MRG is located at `scopedir`/`glossarydir`/mrg.`scopetag`.`defaultvsn`.yaml
   license: LICENSE.md # file that contains the (default) licensing conditions. Full URL is `scopedir`/`license`
   statuses: [ proposed, approved, deprecated ] # list of status tags that are defined for terminological artifacts in this scope
   issues: https://github.com/tno-terminology-design/design-methods/issues # URL where issues can be raised and handled
-  website: https://tno-terminology-design.github.io/design-methods # base URL for creating links to rendered versions of Curated Texts. It should also serve as the home page of the Tterminology.
+  website: https://tno-terminology-design.github.io/design-methods/docs # base URL for creating links to rendered versions of Curated Texts. It should also serve as the home page of the Tterminology.
   curators: # contacting individual curators
   - name: RieksJ
     email: # we split up the email address to reduce the likelihood of the address being harvested for spamming
@@ -28,21 +28,20 @@ scope:
 scopes:  #
 - scopetag: tev2
   scopedir: https://github.com/tno-terminology-design/tev2-specifications/tree/master/docs
-- scopetag: essiflab
-  scopedir: https://github.com/essif-lab/framework/tree/master/docs
-- scopetag: ctwg
-  scopedir: https://github.com/trustoverip/ctwg
+- scopetag: essif-lab # definition of (scope) tag(s) that are used within this scope to refer to a specific terminology
+  scopedir: https://github.com/essif-lab/framework/tree/master/docs # URL of the scope-directory
+- scopetag: essiflab # definition of (scope) tag(s) that are used within this scope to refer to a specific terminology
+  scopedir: https://github.com/essif-lab/framework/tree/master/docs # URL of the scope-directory
 #
 # The third section specifies the versions that are actively maintained by the curators.
 # For each version, the set of terms is selected that constitute the terminology.
 # See the Glossary Generation Tool (GGT) for details about the syntax and semantics.
 #
 versions:
-- vsntag: v0.1
-  altvsntags: [ latest ]
+- vsntag: terms # this version contains all terms that are curated within this scope
   termselection:
-  - "*@tev2" # import all tev2 terms.
-  - "*@termdsn" # import all terms from this repo.
-- vsntag: terms
+  - "*" # import all terms from our own scope.
+- vsntag: documentation # terms that are needed for this specification
+  altvsntags: [ latest ] # alternative verstiontags
   termselection:
-  - "*@termdsn" # import all terms from this repo.
+  - "*" # import all terms from our own scope.

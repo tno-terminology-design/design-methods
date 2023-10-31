@@ -11,17 +11,37 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
-    steps:
+
+      steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 16
 
+      # TNO Terminology Design tools
+      - name: Install terminology tools globally
+        run: npm install -g @tno-terminology-design/trrt @tno-terminology-design/mrgt @tno-terminology-design/mrg-import
+
+      - name: Run terminology tools
+        run: |
+          mrg-import -c $config
+          mrgt -c $config
+          trrt -c $config
+        env:
+          config: docs/terminology-config.yaml
+
+      - name: Commit glossaries to repository
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update Glossaries
+          file_pattern: 'docs/glossaries/mrg.*.yaml'
+      
       - name: Install Dependencies
         run: npm install
 
