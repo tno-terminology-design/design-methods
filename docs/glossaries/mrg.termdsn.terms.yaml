@@ -4,4 +4,114 @@ terminology:
   curatedir: 'terms'
   vsntag: 'terms'
 scopes: []
-entries: []
+entries:
+  - term: '@'
+    termType: 'error'
+    hoverText: 'Error - the reference cannot be resolved.'
+    sidebar_label: 'Term ref not found'
+    scopetag: 'termdsn'
+    termid: 'error:@'
+    locator: '@.md'
+    navurl: 'https://tno-terminology-design.github.io/design-methods/docs/@'
+    headingids:
+      - 'error---the-reference-cannot-be-resolved'
+      - '"@"'
+    vsntag: 'terms'
+  - term: 'author'
+    termType: 'concept'
+    isa: 'tev2-role'
+    glossaryTerm: null
+    glossaryText: 'A person that creates and maintains texts (documentation, whitepapers, specifications, standards, [curated texts](@), etc.), and while doing so ensures that every [term](@) that it uses and that is defined in the [context](scope@) of that text, is used in the meaning in which that [term](@) is defined.'
+    synonymOf: null
+    grouptags: null
+    formPhrases: 'author{ss}'
+    status: 'proposed'
+    created: 2023-01-10T00:00:00.000Z
+    updated: 2023-01-10T00:00:00.000Z
+    contributors: 'RieksJ'
+    attribution: '[eSSIF-Lab](https://essif-lab.github.io/framework)'
+    originalLicense: '[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)'
+    hoverText: 'Author: a person that creates and maintains texts (documentation, whitepapers, specifications, standards, Curated-texts, etc.), and while doing so ensures that every [term](@) that it uses and that is defined in the context (Scope) of that text, is used in the meaning in which that [term](@) is defined.'
+    scopetag: 'termdsn'
+    termid: 'concept:author'
+    locator: 'author.md'
+    navurl: 'https://tno-terminology-design.github.io/design-methods/docs/author'
+    headingids:
+      - 'author'
+      - 'short-description'
+      - 'purpose'
+      - 'notes'
+    vsntag: 'terms'
+  - term: 'common-understanding'
+    termType: 'concept'
+    isa: null
+    glossaryTerm: null
+    glossaryText: 'the state of a [community](@) where every member has the same understanding about the meaning of (a) the [terms](@) used in the [community](@), (b) the relations between these [terms](@), and (c) any constraints/rules that apply.'
+    synonymOf: null
+    grouptags: null
+    formPhrases: null
+    status: 'proposed'
+    created: 2022-10-26T00:00:00.000Z
+    updated: 2022-10-26T00:00:00.000Z
+    contributors: 'RieksJ'
+    attribution: '[eSSIF-Lab](https://essif-lab.github.io/framework)'
+    originalLicense: '[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)'
+    scopetag: 'termdsn'
+    termid: 'concept:common-understanding'
+    locator: 'common-understanding.md'
+    navurl: 'https://tno-terminology-design.github.io/design-methods/docs/common-understanding'
+    headingids:
+      - 'common-understanding'
+      - 'summary'
+      - 'purpose'
+      - 'criteria'
+    vsntag: 'terms'
+  - term: 'domain-expert'
+    termType: 'concept'
+    isa: null
+    glossaryTerm: null
+    glossaryText: 'a person that has expert [knowledge](@) about a specific topic (subject matter), or skills in a particular area (domain).'
+    synonymOf: 'subject-matter-expert'
+    grouptags: null
+    formPhrases: 'domain-expert{ss}, subject-matter-expert{ss}'
+    status: 'proposed'
+    created: 2022-11-23T00:00:00.000Z
+    updated: 2022-11-23T00:00:00.000Z
+    contributors: 'RieksJ'
+    attribution: '[eSSIF-Lab](https://essif-lab.github.io/framework)'
+    originalLicense: '[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)'
+    scopetag: 'termdsn'
+    termid: 'concept:domain-expert'
+    locator: 'domain-expert.md'
+    navurl: 'https://tno-terminology-design.github.io/design-methods/docs/domain-expert'
+    headingids:
+      - 'domain-expert-(or-subject-matter-expert)'
+      - 'summary'
+      - 'purpose'
+      - 'criteria'
+      - 'notes'
+    vsntag: 'terms'
+  - term: 'linguistic-unity'
+    termType: 'concept'
+    isa: null
+    glossaryTerm: null
+    glossaryText: 'the property of a [community](@) of having a [terminology](@) (language) that every member of the [community](@) uses.'
+    synonymOf: null
+    grouptags: null
+    formPhrases: null
+    status: 'proposed'
+    created: 2022-10-26T00:00:00.000Z
+    updated: 2022-10-26T00:00:00.000Z
+    contributors: 'RieksJ'
+    attribution: '[eSSIF-Lab](https://essif-lab.github.io/framework)'
+    originalLicense: '[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)'
+    scopetag: 'termdsn'
+    termid: 'concept:linguistic-unity'
+    locator: 'linguistic-unity.md'
+    navurl: 'https://tno-terminology-design.github.io/design-methods/docs/linguistic-unity'
+    headingids:
+      - 'linguistic-unity'
+      - 'summary'
+      - 'purpose'
+      - 'criteria'
+    vsntag: 'terms'
