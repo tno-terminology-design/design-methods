@@ -3,11 +3,10 @@
 term: linguistic-unity
 termType: concept
 isa:
-glossaryTerm:
+glossaryTerm: "Linguistic Unity"
 glossaryText: "the property of a [community](@) of having a [terminology](@) (language) that every member of the [community](@) uses."
-synonymOf:
-grouptags:
-formPhrases:
+grouptags: [ ]
+formPhrases: [ ]
 # Curation status
 status: proposed
 created: 2022-10-26

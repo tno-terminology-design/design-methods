@@ -3,11 +3,11 @@
 term: domain-expert
 termType: concept
 isa:
-glossaryTerm:
+glossaryTerm: "Domain Expert"
+glossaryAlias: "Subject Matter Expert"
 glossaryText: "a person that has expert [knowledge](@) about a specific topic (subject matter), or skills in a particular area (domain)."
-synonymOf: subject-matter-expert
-grouptags:
-formPhrases: domain-expert{ss}, subject-matter-expert{ss}
+grouptags: [ ]
+formPhrases: [ "domain-expert{ss}", "subject-matter-expert{ss}" ]
 # Curation status
 status: proposed
 created: 2022-11-23

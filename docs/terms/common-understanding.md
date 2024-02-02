@@ -3,11 +3,10 @@
 term: common-understanding
 termType: concept
 isa:
-glossaryTerm:
+glossaryTerm: "Common Understanding"
 glossaryText: "the state of a [community](@) where every member has the same understanding about the meaning of (a) the [terms](@) used in the [community](@), (b) the relations between these [terms](@), and (c) any constraints/rules that apply."
-synonymOf:
-grouptags:
-formPhrases:
+grouptags: [ ]
+formPhrases: [ ]
 # Curation status
 status: proposed
 created: 2022-10-26

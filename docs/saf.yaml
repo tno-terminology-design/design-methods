@@ -44,4 +44,6 @@ versions:
 - vsntag: documentation # terms that are needed for this specification
   altvsntags: [ latest ] # alternative verstiontags
   termselection:
+  - "*@tev2:terms" # import all terms that are curated in tev2
   - "*" # import all terms from our own scope.
+  - "-term[@]"

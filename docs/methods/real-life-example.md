@@ -61,7 +61,7 @@ Reflecting on what has happened here, there are several observations to be made.
 
 ### 3.1. A basic activity
 
-One of the basic activities is that a single person (the 'protagonist' of the activity) gets to explain his understanding of the term, but not in a freewheeling fashion. He is asked to provide a specific criterion that all can later evaluate, and that distinguishes between what the person understands to be instances or non-instances of the term. This isn't easy. There is a simple test to demonstrate that what people know best is difficult for them to express in words.[^3] So we do not expect that person to come up with a first-time-right criterion; we will work with what the person provides.
+One of the basic activities is that a single person (the '[protagonist](@)' of the activity) gets to explain his understanding of the term, but not in a freewheeling fashion. He is asked to provide a specific criterion that all can later evaluate, and that distinguishes between what the person understands to be instances or non-instances of the term. This isn't easy. There is a simple test to demonstrate that what people know best is difficult for them to express in words.[^3] So we do not expect that person to come up with a first-time-right criterion; we will work with what the person provides.
 
 We may need to explain to the others that this process is not about judging whether or not this person is wrong, nor if he is right, nor if what he comes up with is a 'real' criterion. The only two judgements that participants are allowed to make are:
 - whether or not they can evaluate the criterion that this person has provided, i.e. wether or not they will be able to answer with 'yes' or 'no' to the question of whether something that is identified in a use-case or example, satisfies the criterion, or not.
@@ -73,11 +73,11 @@ We require the other participants to listen, and try to understand what the pers
 
 By confining the tasks of each participant to the ones mentioned above, the discussion doesn't go all over the place.[^4] Also, because the tasks are aligned to produce a well-defined result (i.e. a criterion that all use in the same way, and produces the same judgements across the participants when applied to use-cases/examples), we see that the fighting is dramatically reduced, and often completely stops. Instead, participants feel more respected, and heard.
 
-This is further stimulated by having participants help the protagonist, not just by coming up with examples to 'test' the criterion, but also by proposing alternative formulations for the criterion that the protagonist is trying to express - formulations that might be easier to evaluate, or that make a more precise distinction. 'Helping the protagonist' means that the protagonist is the one that has the ultimate say in what works, and what does not. After all, it's his 'knowledge' that is being made explicit.
+This is further stimulated by having participants help the [protagonist](@), not just by coming up with examples to 'test' the criterion, but also by proposing alternative formulations for the criterion that the [protagonist](@) is trying to express - formulations that might be easier to evaluate, or that make a more precise distinction. 'Helping the [protagonist](@)' means that the [protagonist](@) is the one that has the ultimate say in what works, and what does not. After all, it's his 'knowledge' that is being made explicit.
 
 ### 3.2. Bringing it all together
 
-The basic activity is run multiple times, giving every participant the chance to be the protagonist. This results in a multitude of criteria that all have a sufficiently similar understanding of, and of which the relevance is acknowledged by all.
+The basic activity is run multiple times, giving every participant the chance to be the [protagonist](@). This results in a multitude of criteria that all have a sufficiently similar understanding of, and of which the relevance is acknowledged by all.
 
 Note that the process has a side effect that may be called 'team building'. When participants diligently work together to really understand each other, they will feel heard, and respected in their thinking, even if it differs from that of others. Making the differences more explicit and treating them as the real contributions that they are also helps participants to become more friendly towards each other.
 
