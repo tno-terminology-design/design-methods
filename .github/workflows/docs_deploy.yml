@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -26,20 +28,20 @@ jobs:
 
       # TNO Terminology Design tools
       - name: Install terminology tools globally
-        run: npm install -g @tno-terminology-design/trrt @tno-terminology-design/mrgt @tno-terminology-design/mrg-import
+        run: npm install -g @tno-terminology-design/trrt @tno-terminology-design/hrgt @tno-terminology-design/mrgt @tno-terminology-design/mrg-import
 
       - name: Run terminology tools
         run: |
-          mrg-import -c $config
-          mrgt -c $config
-          trrt -c $config
-        env:
-          config: docs/terminology-config.yaml
+          cd docs
+          mrg-import -c terminology-config.yaml
+          mrgt       -c terminology-config.yaml
+          hrgt -f    -c terminology-config.yaml
+          trrt -f    -c terminology-config.yaml
 
-      - name: Commit glossaries to repository
+      - name: Commit MRGs to repository
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Update Glossaries
+          commit_message: Update MRGs
           file_pattern: 'docs/glossaries/mrg.*.yaml'
       
       - name: Install Dependencies
