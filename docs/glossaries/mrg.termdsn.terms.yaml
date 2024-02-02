@@ -1,117 +1,168 @@
 terminology:
-  scopetag: 'termdsn'
-  scopedir: 'https://github.com/tno-terminology-design/design-methods/tree/master/docs'
-  curatedir: 'terms'
-  vsntag: 'terms'
+  scopetag: "termdsn"
+  scopedir: "https://github.com/tno-terminology-design/design-methods/tree/master/docs"
+  curatedir: "terms"
+  glossarydir: "glossaries"
+  defaultvsn: "documentation"
+  license: "LICENSE.md"
+  statuses:
+    - "proposed"
+    - "approved"
+    - "deprecated"
+  issues: "https://github.com/tno-terminology-design/design-methods/issues"
+  website: "https://tno-terminology-design.github.io/design-methods/docs"
+  curators:
+    - name: "RieksJ"
+      email:
+        id: "rieks.joosten"
+        at: "tno.nl"
+  navpath: "/"
+  defaulttype: "concept"
+  vsntag: "terms"
 scopes: []
 entries:
-  - term: '@'
-    termType: 'error'
-    hoverText: 'Error - the reference cannot be resolved.'
-    sidebar_label: 'Term ref not found'
-    scopetag: 'termdsn'
-    termid: 'error:@'
-    locator: '@.md'
-    navurl: 'https://tno-terminology-design.github.io/design-methods/docs/@'
+  - term: "@"
+    termType: "error"
+    hoverText: "Error - the reference cannot be resolved."
+    sidebar_label: "Term ref not found"
+    scopetag: "termdsn"
+    locator: "@.md"
+    navurl: "https://tno-terminology-design.github.io/design-methods/docs/@"
+    formPhrases: []
     headingids:
-      - 'error---the-reference-cannot-be-resolved'
-      - '"@"'
-    vsntag: 'terms'
-  - term: 'author'
-    termType: 'concept'
-    isa: 'tev2-role'
-    glossaryTerm: null
-    glossaryText: 'A person that creates and maintains texts (documentation, whitepapers, specifications, standards, [curated texts](@), etc.), and while doing so ensures that every [term](@) that it uses and that is defined in the [context](scope@) of that text, is used in the meaning in which that [term](@) is defined.'
-    synonymOf: null
-    grouptags: null
-    formPhrases: 'author{ss}'
-    status: 'proposed'
-    created: 2023-01-10T00:00:00.000Z
-    updated: 2023-01-10T00:00:00.000Z
-    contributors: 'RieksJ'
-    attribution: '[eSSIF-Lab](https://essif-lab.github.io/framework)'
-    originalLicense: '[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)'
-    hoverText: 'Author: a person that creates and maintains texts (documentation, whitepapers, specifications, standards, Curated-texts, etc.), and while doing so ensures that every [term](@) that it uses and that is defined in the context (Scope) of that text, is used in the meaning in which that [term](@) is defined.'
-    scopetag: 'termdsn'
-    termid: 'concept:author'
-    locator: 'author.md'
-    navurl: 'https://tno-terminology-design.github.io/design-methods/docs/author'
-    headingids:
-      - 'author'
-      - 'short-description'
-      - 'purpose'
-      - 'notes'
-    vsntag: 'terms'
-  - term: 'common-understanding'
-    termType: 'concept'
+      - "error---the-reference-cannot-be-resolved"
+      - "\"@\""
+    termid: "error:@"
+    vsntag: "terms"
+  - term: "common-understanding"
+    termType: "concept"
     isa: null
-    glossaryTerm: null
-    glossaryText: 'the state of a [community](@) where every member has the same understanding about the meaning of (a) the [terms](@) used in the [community](@), (b) the relations between these [terms](@), and (c) any constraints/rules that apply.'
-    synonymOf: null
-    grouptags: null
-    formPhrases: null
-    status: 'proposed'
+    glossaryTerm: "Common Understanding"
+    glossaryText: "the state of a [community](@) where every member has the same understanding about the meaning of (a) the [terms](@) used in the [community](@), (b) the relations between these [terms](@), and (c) any constraints/rules that apply."
+    grouptags: []
+    formPhrases: []
+    status: "proposed"
     created: 2022-10-26T00:00:00.000Z
     updated: 2022-10-26T00:00:00.000Z
-    contributors: 'RieksJ'
-    attribution: '[eSSIF-Lab](https://essif-lab.github.io/framework)'
-    originalLicense: '[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)'
-    scopetag: 'termdsn'
-    termid: 'concept:common-understanding'
-    locator: 'common-understanding.md'
-    navurl: 'https://tno-terminology-design.github.io/design-methods/docs/common-understanding'
+    contributors: "RieksJ"
+    attribution: "[eSSIF-Lab](https://essif-lab.github.io/framework)"
+    originalLicense: "[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)"
+    scopetag: "termdsn"
+    locator: "common-understanding.md"
+    navurl: "https://tno-terminology-design.github.io/design-methods/docs/common-understanding"
     headingids:
-      - 'common-understanding'
-      - 'summary'
-      - 'purpose'
-      - 'criteria'
-    vsntag: 'terms'
-  - term: 'domain-expert'
-    termType: 'concept'
+      - "common-understanding"
+      - "summary"
+      - "purpose"
+      - "criteria"
+    termid: "concept:common-understanding"
+    vsntag: "terms"
+  - term: "criteria-elicitation-process"
+    termType: "concept"
+    glossaryTerm: "Criteria Elicitation Process"
+    glossaryAbbr: "CEP"
+    glossaryText: ""
+    bodyFile: "/methods/criteria-elicitation.md"
+    grouptags: []
+    formPhrases:
+      - "criteria-elicitation-processe"
+      - "criteria-elicitation-processes"
+      - "criteria-elicitation-processed"
+      - "criteria-elicitation-processing"
+    status: "proposed"
+    created: 20240202
+    updated: 20240202
+    contributors: "RieksJ"
+    attribution: "[eSSIF-Lab](https://essif-lab.github.io/framework)"
+    originalLicense: "[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)"
+    scopetag: "termdsn"
+    locator: "criteria-elicitation-process.md"
+    navurl: "https://tno-terminology-design.github.io/design-methods/docs/methods/criteria-elicitation"
+    headingids:
+      - "criteria-elicitation"
+      - "summary"
+      - "triggers"
+      - "activities"
+      - "issues/exceptions"
+      - "tips"
+      - "example"
+    termid: "concept:criteria-elicitation-process"
+    vsntag: "terms"
+  - term: "domain-expert"
+    termType: "concept"
     isa: null
-    glossaryTerm: null
-    glossaryText: 'a person that has expert [knowledge](@) about a specific topic (subject matter), or skills in a particular area (domain).'
-    synonymOf: 'subject-matter-expert'
-    grouptags: null
-    formPhrases: 'domain-expert{ss}, subject-matter-expert{ss}'
-    status: 'proposed'
+    glossaryTerm: "Domain Expert"
+    glossaryAlias: "Subject Matter Expert"
+    glossaryText: "a person that has expert [knowledge](@) about a specific topic (subject matter), or skills in a particular area (domain)."
+    grouptags: []
+    formPhrases:
+      - "domain-expert"
+      - "domain-experts"
+      - "domain-expert-s"
+      - "subject-matter-expert"
+      - "subject-matter-experts"
+      - "subject-matter-expert-s"
+    status: "proposed"
     created: 2022-11-23T00:00:00.000Z
     updated: 2022-11-23T00:00:00.000Z
-    contributors: 'RieksJ'
-    attribution: '[eSSIF-Lab](https://essif-lab.github.io/framework)'
-    originalLicense: '[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)'
-    scopetag: 'termdsn'
-    termid: 'concept:domain-expert'
-    locator: 'domain-expert.md'
-    navurl: 'https://tno-terminology-design.github.io/design-methods/docs/domain-expert'
+    contributors: "RieksJ"
+    attribution: "[eSSIF-Lab](https://essif-lab.github.io/framework)"
+    originalLicense: "[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)"
+    scopetag: "termdsn"
+    locator: "domain-expert.md"
+    navurl: "https://tno-terminology-design.github.io/design-methods/docs/domain-expert"
     headingids:
-      - 'domain-expert-(or-subject-matter-expert)'
-      - 'summary'
-      - 'purpose'
-      - 'criteria'
-      - 'notes'
-    vsntag: 'terms'
-  - term: 'linguistic-unity'
-    termType: 'concept'
+      - "domain-expert-(or-subject-matter-expert)"
+      - "summary"
+      - "purpose"
+      - "criteria"
+      - "notes"
+    termid: "concept:domain-expert"
+    vsntag: "terms"
+  - term: "linguistic-unity"
+    termType: "concept"
     isa: null
-    glossaryTerm: null
-    glossaryText: 'the property of a [community](@) of having a [terminology](@) (language) that every member of the [community](@) uses.'
-    synonymOf: null
-    grouptags: null
-    formPhrases: null
-    status: 'proposed'
+    glossaryTerm: "Linguistic Unity"
+    glossaryText: "the property of a [community](@) of having a [terminology](@) (language) that every member of the [community](@) uses."
+    grouptags: []
+    formPhrases: []
+    status: "proposed"
     created: 2022-10-26T00:00:00.000Z
     updated: 2022-10-26T00:00:00.000Z
-    contributors: 'RieksJ'
-    attribution: '[eSSIF-Lab](https://essif-lab.github.io/framework)'
-    originalLicense: '[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)'
-    scopetag: 'termdsn'
-    termid: 'concept:linguistic-unity'
-    locator: 'linguistic-unity.md'
-    navurl: 'https://tno-terminology-design.github.io/design-methods/docs/linguistic-unity'
+    contributors: "RieksJ"
+    attribution: "[eSSIF-Lab](https://essif-lab.github.io/framework)"
+    originalLicense: "[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)"
+    scopetag: "termdsn"
+    locator: "linguistic-unity.md"
+    navurl: "https://tno-terminology-design.github.io/design-methods/docs/linguistic-unity"
     headingids:
-      - 'linguistic-unity'
-      - 'summary'
-      - 'purpose'
-      - 'criteria'
-    vsntag: 'terms'
+      - "linguistic-unity"
+      - "summary"
+      - "purpose"
+      - "criteria"
+    termid: "concept:linguistic-unity"
+    vsntag: "terms"
+  - term: "protagonist"
+    termType: "concept"
+    glossaryTerm: "Protagonist (in a Term Elicitation Process)"
+    glossaryText: "the participant in a [criteria elicitation process](@), that has the [concept](@) (or other [semantic unit](@)) in his/her mind for which the process aims to make the criterion explicit that this person uses to determine what is, and what is not, an instance (example) of that [concept](@)."
+    grouptags: []
+    formPhrases:
+      - "protagonist"
+      - "protagonists"
+      - "protagonist-s"
+      - "subject-matter-expert"
+      - "subject-matter-experts"
+      - "subject-matter-expert-s"
+    status: "proposed"
+    created: 20240202
+    updated: 20240202
+    contributors: "RieksJ"
+    attribution: "[eSSIF-Lab](https://essif-lab.github.io/framework)"
+    originalLicense: "[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)"
+    scopetag: "termdsn"
+    locator: "protagonist.md"
+    navurl: "https://tno-terminology-design.github.io/design-methods/docs/protagonist"
+    headingids: []
+    termid: "concept:protagonist"
+    vsntag: "terms"
