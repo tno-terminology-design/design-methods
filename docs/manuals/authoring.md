@@ -34,7 +34,7 @@ This page intends to provide guidance for an [author](@) regarding how to deal w
 ## Prerequisites
 
 :::info Editor's note
-This section introduces the [scope](@) in which the text will be created. It postulates the existence of
+This section introduces the [scope](@) in which the text will be created. It postulates the existence of:
 - a glossary that contains all [terms](@) the [definition](@) (and further explanations) of which are expected to be beneficial to (some of) the [readers](@).
 - a mechanism for creating and updating (parts of) such a glossary in case it doesn't exist, or needs maintenance.
 :::
