@@ -21,19 +21,6 @@ terminology:
   vsntag: "terms"
 scopes: []
 entries:
-  - term: "@"
-    termType: "error"
-    hoverText: "Error - the reference cannot be resolved."
-    sidebar_label: "Term ref not found"
-    scopetag: "termdsn"
-    locator: "@.md"
-    navurl: "https://tno-terminology-design.github.io/design-methods/docs/@"
-    formPhrases: []
-    headingids:
-      - "error---the-reference-cannot-be-resolved"
-      - "\"@\""
-    termid: "error:@"
-    vsntag: "terms"
   - term: "common-understanding"
     termType: "concept"
     isa: null
@@ -151,9 +138,6 @@ entries:
       - "protagonist"
       - "protagonists"
       - "protagonist-s"
-      - "subject-matter-expert"
-      - "subject-matter-experts"
-      - "subject-matter-expert-s"
     status: "proposed"
     created: 20240202
     updated: 20240202
