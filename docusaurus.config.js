@@ -52,6 +52,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          remarkPlugins: [require('remark-mermaid')],
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/tno-terminology-design/blob/master/',
           showLastUpdateAuthor: true,
