@@ -44,18 +44,6 @@ The idea is that anyone willing to explain some concepts by (first) understandin
 At least one clear generally applicable criterium should come out of this step-by-step per term.
 :::
 
-```mermaid
-flowchart TD
-A[A:I am writing, but I need to explain something! Help!];B{B:Terms understood?};C[/C:Glossary/]; D{D:Text with criteria understood?}; 
-E[E:Term definition incl. criteria]; F[/F:Text with terms/];
-    A --> |1: Identify concepts| B
-    B --> |Yes, known term. Use ... | C
-    B --> |2: No, I'll write criteria| D
-    D --> |3: No, I'll adjust criteria| D
-    D --> |4: Yes, understood! Now a term can be defined| E
-    E --> |4: Replace criteria by term | F
-    E --> |Add term def to ...| C
-```
 
 1. Start writing your objectives and ideas, and identify the concepts behind the terms you use ([why](#why-objectives)-[what is it](#what-identifying)?) 
 2. Write the concept in a specific way: formulate criteria ([why](#why-criteria)-[how](#how-criteria)-[what is good](#what-good-criteria)?) when you expect confusion to arise
@@ -65,12 +53,6 @@ E[E:Term definition incl. criteria]; F[/F:Text with terms/];
 
 #### 1. Start writing your objectives and ideas, and identify the concepts behind the terms you use 
 
-```mermaid
-flowchart TD
-A[A:I am writing, Help Terminology!];B{B:Terms understood?}
-    A --> |1: Identify concepts| B
-```
-
 ##### why writing your objectives and ideas down [#why-objectives]
 You want to be understood and seek support for your plans or ideas. To guide this process, it's good to have a reference.
 
@@ -79,23 +61,17 @@ An identifier points to something, in this case to a concept. Identification is 
 
 #### 2. Write the concept in a specific way: formulate criteria when you expect confusion to arise
 
-```mermaid
-flowchart TD
-B{B:Terms understood?}; D{D:Text with criteria understood?}; 
-    B --> |2: No, I'll write criteria| D
-```
-
 ##### why criteria? [#why-criteria]
 Another person should be able to apply wording to a certain concept and then be able to independently decide whether something falls in or out of the criterium. Example: if a stool is defined with the criterium "all furniture to comfortably sit on with exactly 3 legs from seat to each non-fixed contact point of the leg on the floor", then anyone could (dis)qualify various instances of something to sit on that looks like a stool to many.
 Although you might not fully agree that a 4-legged stool is no stool according to this definition with this criterium, the fact is that it's the generally applicable criterium that we were looking for.
 
 ###### Stools IN the criterium
 
-![Stools](https://github.com/henkvancann/terminology-governance-guide/images/Stools.png?raw=true)
+![Stools](https://github.com/trustoverip/ctwg-terminology-governance-guide/blob/main/images/Stools.png?raw=true)
 
 ###### Stools OUTSIDE the criterium
 
-![Stools](https://github.com/henkvancann/terminology-governance-guide/images/Non-stools.png?raw=true)
+![Not Stools](https://github.com/trustoverip/ctwg-terminology-governance-guide/blob/main/images/Non-stools.png?raw=true)
 
 ::: note Important consideration
 Communication, understanding and learning will sky rocket with clear criteria, invest time in them and earn time back further down the road.

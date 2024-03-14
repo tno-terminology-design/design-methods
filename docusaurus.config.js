@@ -46,7 +46,19 @@ module.exports = {
       ],
       copyright: copyright.text.replace("[20XX-20YY]",`2022-${new Date().getFullYear()}`)
     },
+    mermaid: {
+      theme: { light: 'neutral', dark: 'forest' },
+      options: {
+        //…
+      }
+    },
   },
+
+  markdown: {
+    mermaid: true,
+  },
+//  themes: ['@docusaurus/theme-mermaid'],
+  
   presets: [
     [
       '@docusaurus/preset-classic',
