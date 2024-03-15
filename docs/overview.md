@@ -7,12 +7,28 @@ date: 20221020
 
 import useBaseUrl from '@docusaurus/useBaseUrl'
 
-# On the Design of Terminology
+# TNO's Terminology Design
 
 <img
   alt="This page is under construction"
   src={useBaseUrl('images/wip/wip-under-construction.png')}
 />
+
+:::info This site is for you if 
+
+- you want to improve your understanding of what others are saying, and/or<br />
+  improve cooperation within a team that you belong to, by making sure you're talking about the same things.
+- you are looking for efficient and effective ways to realize these goals.
+- you are willing to put in the effort it takes.
+:::
+
+The contents of this site will help you:
+
+1. understand the underlying causes of the problems. As always, understanding the problem is half of the solution. 
+2. develop your capabilities of 'coming to terms' with terminology. We will suggest ways in which you can practice and refine them in 1-1 settings, when authoring texts, and various other contexts.
+3. by providing descriptions of the mechanisms we have been using ourselves (and some anecdotes from our experience).
+
+## Introduction
 
 In order for a [community](@) (e.g. a workgroup, taskforce, project/product team, department, etc.) to realize its [objectives](@), it is beneficial that its members
 1. have **a [common understanding](@)** of the ideas, [concepts](@) and other [knowledge artifacts](@)[^1] that are relevant for realizing these [objectives](@),
