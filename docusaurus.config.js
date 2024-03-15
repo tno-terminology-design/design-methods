@@ -46,12 +46,25 @@ module.exports = {
       ],
       copyright: copyright.text.replace("[20XX-20YY]",`2022-${new Date().getFullYear()}`)
     },
+    mermaid: {
+      theme: { light: 'neutral', dark: 'forest' },
+      options: {
+        //…
+      }
+    },
   },
+
+  markdown: {
+    mermaid: true,
+  },
+//  themes: ['@docusaurus/theme-mermaid'],
+  
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
+          remarkPlugins: [require('remark-mermaid')],
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/tno-terminology-design/blob/master/',
           showLastUpdateAuthor: true,
