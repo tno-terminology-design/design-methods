@@ -1,5 +1,3 @@
-# README
-
 The .json files in this directory are meant to be used to create a consistent layout across the documentation sites of the various tools, methods, specifications, etc.
 
 The way to achieve this in a particular repo is as follows.
